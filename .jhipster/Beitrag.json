@@ -1,0 +1,65 @@
+{
+  "name": "Beitrag",
+  "fields": [
+    {
+      "fieldName": "content",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "attrib",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "200"
+    },
+    {
+      "fieldName": "titel",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "70"
+    },
+    {
+      "fieldName": "rechte",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "30"
+    },
+    {
+      "fieldName": "validFrom",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "validTo",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "publishDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "archiv",
+      "fieldType": "Archiv",
+      "fieldValues": "JA (Ja),NEIN (Nein)"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "thema",
+      "otherEntityRelationshipName": "beitrag",
+      "relationshipName": "thema",
+      "otherEntityField": "name"
+    }
+  ],
+  "javadoc": "not an ignored comment",
+  "entityTableName": "beitrag",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["SVISInfo"],
+  "changelogDate": "20210428134928"
+}
