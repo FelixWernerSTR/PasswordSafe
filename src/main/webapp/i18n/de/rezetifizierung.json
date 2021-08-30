@@ -1,0 +1,34 @@
+{
+  "svisRezetifizierungApp": {
+    "rezetifizierung": {
+      "home": {
+        "title": "Rezetifizierungs",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Rezetifizierung erstellen",
+        "createOrEditLabel": "Rezetifizierung erstellen oder bearbeiten",
+        "notFound": "Keine Rezetifizierungs gefunden"
+      },
+      "created": "Rezetifizierung erstellt mit ID {{ param }}",
+      "updated": "Rezetifizierung aktualisiert mit ID {{ param }}",
+      "deleted": "Rezetifizierung gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Rezetifizierung {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Rezetifizierung"
+      },
+      "id": "ID",
+      "loginName": "Login Name",
+      "nachname": "Nachname",
+      "vorname": "Vorname",
+      "vermittlerNummer": "Vermittler Nummer",
+      "rollenZugehoerigkeiten": "Rollen Zugehoerigkeiten",
+      "dvcVertreterNummer": "Dvc Vertreter Nummer",
+      "dvcBenutzerGruppe": "Dvc Benutzer Gruppe",
+      "icisSrGebaude": "Icis Sr Gebaude",
+      "icisSrHaftpflicht": "Icis Sr Haftpflicht",
+      "icisSrLeitungswasser": "Icis Sr Leitungswasser",
+      "icisSrKfzKasko": "Icis Sr Kfz Kasko"
+    }
+  }
+}
